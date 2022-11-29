@@ -1,16 +1,16 @@
 .bio-box {
+    display: ;
     border: 1px solid black;
     float: left;
     font-size: 1rem;
     padding: 2%;
     width: 25%;
+    box-sizing: border-box;
 }
 
 .bio-wrapper {
     font-size: 24px;
     background-color: #c0e0c3;
-    height: 300px;
-    overflow: scroll;
 }
 
 .bio-wrapper:after {
@@ -20,4 +20,13 @@
     content: " ";
     clear: both;
     height: 0;
+}
+
+.social-list {
+    list-style: none;
+    padding: 0;
+}
+
+.social-list > li{
+    display: inline-block;
 }
